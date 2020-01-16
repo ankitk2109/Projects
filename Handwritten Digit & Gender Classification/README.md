@@ -2,12 +2,12 @@
 
 ## Handwritten Digit classification: Predicting the handwritten digits using SVM.
 
-SVM:A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimensional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side[3].
+SVM:A Support Vector Machine (SVM) is a discriminative classifier formally defined by a separating hyperplane. In other words, given labeled training data (supervised learning), the algorithm outputs an optimal hyperplane which categorizes new examples. In two dimensional space this hyperplane is a line dividing a plane in two parts where in each class lay in either side.
 
 
 
 Parameters of SVM
-C: regularization parameter, tells the SVM optimization how much you want to avoid misclassifying each training example[3].
+C: regularization parameter, tells the SVM optimization how much you want to avoid misclassifying each training example.
 
 ![image](https://user-images.githubusercontent.com/26432753/72310711-4f25aa80-367a-11ea-80af-0fbdd7a6cec1.png)
 
@@ -35,7 +35,7 @@ One thing that can be noticed that after a certain values the accuracy does not 
 
 We have to think of a new feature that could extract from the data-set to identify male and female; We have to define a fn for it (modifying gender_features) and see what is learned from it in the classification.
 
-Bayes theorem: We can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption made here is that the predictors/features are independent[2].
+Bayes theorem: We can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption made here is that the predictors/features are independent.
 
 ![image](https://user-images.githubusercontent.com/26432753/72310590-07068800-367a-11ea-92c7-b3235ae1bc51.png)
 
