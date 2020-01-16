@@ -3,6 +3,7 @@
 The aim is to assess the impact of algorithm bias on machine learning algorithms trained with imbalance data.
 
 **DATA: BREAST CANCER**
+
 **Algorithms to compare: k-NN, Decision Trees, Logistic regression and Naive Bayes.**
 
 Comparing accuracies using __Hold out__ and __Cross Validation__
@@ -53,22 +54,23 @@ FP-Rate for each algorithms:
 
 **Hold-Out**
 
-kNN: 0.3243
+1. kNN: 0.3243
 
-Decison Tree: 0.324
+2. Decison Tree: 0.324
 
-Gaussian naive Bayes: 0.486 
+3. Gaussian naive Bayes: 0.486 
 
-Logistic Regression: 0.21
+4. Logistic Regression: 0.21
 
 **Oversampling**
-kNN: 0.28
 
-Decison Tree: 024
+1. kNN: 0.28
 
-Gaussian naive Bayes: 0.36
+2. Decison Tree: 024
 
-Logistic Regression: 0.16
+3. Gaussian naive Bayes: 0.36
+
+4. Logistic Regression: 0.16
 
 **Conclusion**
 As the dataset was imbalanced the intial hand-out algorithms were biased. After applying oversampling it can be seen above that the FP rate decreases for each classification alorithm.
