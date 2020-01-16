@@ -1,18 +1,15 @@
-# Sentiment Analysis
+# Opinionator & SentiCorp Analyzer
   
-### Following Tasks are performed. Also the accuracy is measured by removing stop words, normalizing, changing classifier and Increasing training set.
+## Opinionator: Human Rater Task
 
-**Task1. Human Ratings Task:**
-
-a)Get 3 opinion about the phone.
+a)Get 3 opinion(let say about there phones).
 
 b)Get 3 different raters to rate these comments as positive, negative, neutral or can’t-say.
 
 c)Take a 3 x 3 matrix and find the inter-rater reliability between your 3 raters using Kappa.
 
-d)If we want to get the correlation between raters (using Pearson’s rho) what should we do?
+Below are the opinions of three different people about there phone:
 
-Ans. Below are the opinions of three different people about there phone:
 op1 = "Audio from this phone is merely OK and this seems to be a side-effect of having basically no room for speakers."
 
 op2 = "The S Pen is the true headline feature for the Note series and it is pretty much the only flagship around that lets you draw and take notes with a pen on the display."
@@ -21,6 +18,7 @@ op3 = "Samsung has finally ditched the headphone jack from the Note’s design, 
 
 a)Ratings are coded as shown,
 Positive Rating : 1, Neutral Rating : 0, Negative Rating: -1 
+
 The opinions are rated as below by three different raters.
 
 ![image](https://user-images.githubusercontent.com/26432753/72351072-91310980-36d7-11ea-94d0-839ce105c28f.png)
@@ -53,11 +51,11 @@ Below is the matrix for kappa score of each opinion.
 ![image](https://user-images.githubusercontent.com/26432753/72351239-e240fd80-36d7-11ea-9816-6a2952bc2c4b.png)
 
 
-c)Pearson’s rho: It is a measure of the strength of a linear association between two variables and is denoted by rho(r)[3].
-It can take a range of values from +1 to -1.
-A value of 0 indicates that there is no association between the two variables.
-A value greater than 0 indicates a positive association that is, as the value of one variable increases, so does the value of the other variable.
-A value less than 0 indicates a negative association; that is, as the value of one variable increases, the value of the other variable decreases.
+c)Pearson’s rho: It is a measure of the strength of a linear association between two variables and is denoted by rho(r).
+  It can take a range of values from +1 to -1.
+  A value of 0 indicates that there is no association between the two variables.
+  A value greater than 0 indicates a positive association that is, as the value of one variable increases, so does the value of the other variable.
+  A value less than 0 indicates a negative association; that is, as the value of one variable increases, the value of the other variable decreases.
 
 ![image](https://user-images.githubusercontent.com/26432753/72351260-f1c04680-36d7-11ea-9293-c4876b3e99c7.png)
 
@@ -69,24 +67,21 @@ Pearson’s Correlation Coefficient is given by:
 
 As shown above, Pearson correlation for Rater 1 and Rater 2 is 0.0 which signifies that there is no correlation between the them. Rater 1 and Rater 3 have have correlation equals to 0.86, which signifies that there is a positive correlation between these two. Rater 2 and Rater 3 have -0.49 which means there is negative correlation between them.
 
-**Task2.  Based on this simple program that does sentiment analysis. **
+## SentiCorp Analyzer: Sentiment analysis
 
-a)Now considering a ways to improve the training by remove stopwords, changing classifier or increasing training set.
-
-b) Implementing this or another solution in the program and measuring how precision and recall changes for the classifier.
-
-Ans: The program does the following[6]:
 i.Firstly we read sentences from two files which are already classified as positive and negative based on sentiments.
 ii.We split the sentences based on lines.
 iii.Now we break the sentences into lists of individual words as we would be analyzing the sentiments based on words. Also we create features ‘posFeatures’ and ‘negFeatures’ which consists of collection of positive and negative words along with the tags.
 iv.The next step is to divide the features into training and testing sets.
 v.Once that done we train the classifier on the training set.
 vi.After the classifier is trained we predict the labels for the test set.
-vii.Finally we evaluate the parameters such as accuracy of classifier, precision and recall for both positive and negative sets. 
+vii.Finally we evaluate the parameters such as accuracy of classifier, precision and recall for both positive and negative sets.
+
 a)Ways to improve the training:
 i.We can remove the stops words.
 ii.We can try changing the classifier.
 iii.We can change the training and testing size.
+
 b)Implementation:
 i.Removing the stop words:
 
