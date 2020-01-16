@@ -35,15 +35,9 @@ Modified function to calculate Jaccard-Distance.
 
 After calculating the pairwise distance, the following is the result.
 
- ![image](https://user-images.githubusercontent.com/26432753/72297902-d8c28180-3654-11ea-9a85-96cd4ebb3730.png)
+![image](https://user-images.githubusercontent.com/26432753/72557784-5676cf00-3899-11ea-8a5f-ad749fced0b0.png)
 
 Here dis1_2, show the distance between target1 and target2. Similarly rest all distance are calculated above.
-
-Jaccard Distance holds triangle inequality property for each pair. The code snippet below shows the calculation for a few of the pairs.
-
- ![image](https://user-images.githubusercontent.com/26432753/72297911-dd873580-3654-11ea-9577-613d59e4c1ed.png)
-
-Above we are calculating Jaccard-distance between pairs. It can be seen that the pair satisfies triangle inequality theorem.
 
  
 ## Using Cosine similarity
