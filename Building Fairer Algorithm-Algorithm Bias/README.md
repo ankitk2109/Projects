@@ -31,12 +31,15 @@ When the distribution of classes present in a data is not uniform such that the 
 Using Random Sampling to deal with Imbalance dataset.
 
 **FP rates of each Algorithms:**
-kNN : 0.0888
-Decision Tree: 0.0333
-Gaussian Naive Bayes: 0.0777
-Logarithmic Regression: 0.0222
+1. kNN : 0.0888
 
-Random Oversampling: This method works with minority class. It replicates the observations from minority class to balance the data. It randomly oversampling the minority class. An advantage of using this method is that it leads to no information loss.
+2. Decision Tree: 0.0333
+
+3. Gaussian Naive Bayes: 0.0777
+
+4. Logarithmic Regression: 0.0222
+
+**Random Oversampling**: This method works with minority class. It replicates the observations from minority class to balance the data. It randomly oversampling the minority class. An advantage of using this method is that it leads to no information loss.
 
 After applying random oversampling the FP rates significantly decreases for each algorithm implying that algorithms are now less biased.The disadvantage of using this method is that, since oversampling simply adds replicated observations in original data set, it ends up adding multiple observations of several types, thus leading to overfitting. Although, the training accuracy of such data set will be high, but the accuracy on unseen data will be worse.
 
@@ -47,16 +50,24 @@ Based on the results the FP rate of Logarithmic Regression least hence performin
 **DataSet: Crytherapy Dataset: This dataset is used to classify whether the person was treated successfully or not based on six features age,sex,time,Number_of_Warts,type and area**
 
 FP-Rate for each algorithms:
+
 **Hold-Out**
+
 kNN: 0.3243
+
 Decison Tree: 0.324
+
 Gaussian naive Bayes: 0.486 
+
 Logistic Regression: 0.21
 
 **Oversampling**
 kNN: 0.28
+
 Decison Tree: 024
+
 Gaussian naive Bayes: 0.36
+
 Logistic Regression: 0.16
 
 **Conclusion**
