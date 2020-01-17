@@ -72,5 +72,5 @@ FP-Rate for each algorithms:
 
 4. Logistic Regression: 0.16
 
-**Conclusion**
+## Conclusion
 As the dataset was imbalanced the intial hand-out algorithms were biased. After applying oversampling it can be seen above that the FP rate decreases for each classification alorithm.
