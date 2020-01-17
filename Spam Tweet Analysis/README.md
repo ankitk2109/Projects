@@ -1,6 +1,6 @@
 # SPAM TWEET ANALYSIS
 
-**We have a few set of normal tweets and few spam tweets. We will find the spam tweet and plot iton  graph with colour code to show how the SPAM v Normal ones.**
+**We have a few set of normal tweets and few spam tweets. We will find the spam tweet and plot it on graph with colour code to show how the SPAM v Normal ones.**
 
 **Normal Tweets:**
 
