@@ -20,7 +20,7 @@ For each pair we are taking 5 handwritten digits to predict them. For each pair 
 ![image](https://user-images.githubusercontent.com/26432753/72310775-9318af80-367a-11ea-8f24-86ad9b13a45a.png)
 
 
-When C is low the model considers few misclassification and when gamma is high it considers values that are only nearby to the plane/line. Hence in the above output C was very low and gamma was high causing digits to be miss classified. Each digit is classified as [3], whereas the digits are 2,4,5,8 and 9.
+When C is low the model considers few misclassification and when gamma is high it considers values that are only nearby to the plane/line. Hence in the above output C was very low and gamma was high causing digits to be miss classified. Each digit is classified as, whereas the digits are 2,4,5,8 and 9.
 
 
 ![image](https://user-images.githubusercontent.com/26432753/72310818-ae83ba80-367a-11ea-8160-df8e3dd84ad9.png)
@@ -32,6 +32,8 @@ When C is high the model avoids misclassification and when gamma is low it consi
 One thing that can be noticed that after a certain values the accuracy does not change. This is because the model is fitted to its limit even after changing C or gamma does not have any affect.
 
 ## Gender Classification: Using name features to classify gender as male or female.
+* Accuracy before feature selection: 76%
+* Accuracy afeter feature selection: 80%
 
 We have to think of a new feature that could extract from the data-set to identify male and female; We have to define a fn for it (modifying gender_features) and see what is learned from it in the classification.
 
