@@ -1,5 +1,5 @@
 # Credit Card Fraud Detection using sklearn
-**A similar approach to project completed using Tibco Spotfire Datascience.**
+### A similar approach to project completed using Tibco Spotfire DataScience.
 
 ### Input
 Please find the dataset on: https://www.kaggle.com/mlg-ulb/creditcardfraud/data#
