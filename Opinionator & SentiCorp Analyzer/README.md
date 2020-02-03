@@ -70,16 +70,26 @@ As shown above, Pearson correlation for Rater 1 and Rater 2 is 0.0 which signifi
 ## SentiCorp Analyzer: Sentiment analysis
 
 i.Firstly we read sentences from two files which are already classified as positive and negative based on sentiments.
+
 ii.We split the sentences based on lines.
+
 iii.Now we break the sentences into lists of individual words as we would be analyzing the sentiments based on words. Also we create features ‘posFeatures’ and ‘negFeatures’ which consists of collection of positive and negative words along with the tags.
+
 iv.The next step is to divide the features into training and testing sets.
+
 v.Once that done we train the classifier on the training set.
+
 vi.After the classifier is trained we predict the labels for the test set.
+
 vii.Finally we evaluate the parameters such as accuracy of classifier, precision and recall for both positive and negative sets.
 
+
 a)Ways to improve the training:
+
 i.We can remove the stops words.
+
 ii.We can try changing the classifier.
+
 iii.We can change the training and testing size.
 
 b)Implementation:
