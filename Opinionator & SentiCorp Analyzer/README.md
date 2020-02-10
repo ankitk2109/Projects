@@ -1,5 +1,11 @@
 # Opinionator & SentiCorp Analyzer
-  
+
+* __Opinionator__: Take different human opinion and find inter-rater reliability. Also, identify whether the raters
+have positive negative or no correlation.
+
+* __SentiCorp Analyzer__: Tag words as positive and negative from the corpus and train the model to identify the
+polarity of the test set. Most informative feature are reported along with their polarity and score.
+
 ## Opinionator: Human Rater Task
 
 a)Get 3 opinion(let say about there phones).
