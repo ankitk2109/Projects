@@ -1,4 +1,4 @@
-# SimTexter: A Tool for Measuring text Similarity
+# SimTexter: A Program for Measuring text Similarity
 
 Given a set of word features we have created a python dictionary target_dic which consists of 6 different targets(entities).
 
