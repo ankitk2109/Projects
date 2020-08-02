@@ -61,25 +61,25 @@ Sampling methods
        • synthetic data generation
        • cost sensitive learning
 
-       i) Undersampling: This method works with majority class. It reduces the number of observations from majority class to make the data set balanced
+i) __Undersampling:__ This method works with majority class. It reduces the number of observations from majority class to make the data set balanced
 
-              • This method is best to use when the data set is huge and reducing the number of training samples helps to improve run time and storage troubles.
+       • This method is best to use when the data set is huge and reducing the number of training samples helps to improve run time and storage troubles.
 
-                     a. Random undersampling: this method randomly chooses observations from majority class which are eliminated until the data set gets balanced.
+              a. Random undersampling: this method randomly chooses observations from majority class which are eliminated until the data set gets balanced.
 
-                     b. Informative undersampling: This follows a pre-specified selection criterion to remove the observations from majority class.
+              b. Informative undersampling: This follows a pre-specified selection criterion to remove the observations from majority class.
 
-       • PROBLEM: Apparently, removing observations may cause the training data to lose important information pertaining to majority class.
+• PROBLEM: Apparently, removing observations may cause the training data to lose important information pertaining to majority class.
 
 
-ii) Oversampling: This method works with minority class. It replicates the observations from minority class to balance the data. It is also known as upsampling. Similar to undersampling, this method also can be divided into two types: Random Oversampling and Informative Oversampling.
+ii) __Oversampling:__ This method works with minority class. It replicates the observations from minority class to balance the data. It is also known as upsampling. Similar to undersampling, this method also can be divided into two types: Random Oversampling and Informative Oversampling.
 
        • An advantage of using this method is that it leads to no information loss.
 
        • Disadvantage: oversampling simply adds replicated observations in original data set, it ends up adding multiple observations of several types, thus leading to overfitting. Although, the training accuracy of such data set will be high, but the accuracy on unseen data will be worse.
 
 
-iii) Synthetic Data Generation:  Instead of replicating and adding the observations from the minority class, it overcome imbalances by generates artificial data. It is also a type of oversampling technique.
+iii) __Synthetic Data Generation:__  Instead of replicating and adding the observations from the minority class, it overcome imbalances by generates artificial data. It is also a type of oversampling technique.
 
        • In regards to synthetic data generation, synthetic minority oversampling technique (SMOTE) is a powerful and widely used method.
 
@@ -89,7 +89,7 @@ iii) Synthetic Data Generation:  Instead of replicating and adding the observati
 
        • To generate artificial data, it uses bootstrapping and k-nearest neighbors.
 
-iv) Cost Sensitive Learning (CSL): This method evaluates the cost associated with misclassifying observations. 
+iv) __Cost Sensitive Learning (CSL):__ This method evaluates the cost associated with misclassifying observations. 
 
        • It does not create balanced data distribution. Instead, it highlights the imbalanced learning problem by using cost matrices which describes the cost for misclassification in a particular scenario.
 
@@ -147,3 +147,7 @@ VARIOUS WAYS OF FINDING THE OUTLIER
 
 ### Anamoly detection algorithm
 Isolation Forest: https://quantdare.com/isolation-forest-algorithm/
+
+### Reference:
+
+Credit card fraud with Undersampling: https://github.com/lksfr/credit_card_fraud
